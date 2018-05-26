@@ -1,7 +1,7 @@
 # Tools
 
 =============================================================================================
-Tools name: slist
+Tools name: slist.sh
 
 Description: Read ~/.ssh/conf file and output as a list for easy connection to server
 
