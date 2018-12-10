@@ -24,5 +24,5 @@ done
 echo -e "\nServer to connect:"
 read cs
 
-host=`grep "^$cs" ${list_path} | awk '{print $2}'`
+host=`grep "^$cs " ${list_path} | awk '{print $2}'`
 ssh $host
