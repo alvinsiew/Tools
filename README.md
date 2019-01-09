@@ -12,7 +12,7 @@ Description: Read ~/.ssh/conf file and output as a list for easy connection to s
 
 $ slist
 
-1 hostname1 \n
+1 hostname1 /n
 2 hostname2
 
 3 hostname3
