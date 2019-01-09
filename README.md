@@ -11,8 +11,11 @@ Description: Read ~/.ssh/conf file and output as a list for easy connection to s
 - Execute slist from anywhere:
 
 $ slist
+
 1 hostname1
+
 2 hostname2
+
 3 hostname3
 
 Server to connect:
