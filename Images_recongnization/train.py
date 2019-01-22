@@ -35,7 +35,7 @@ args = vars(ap.parse_args())
 
 # initialize the number of epochs to train for, initial learning rate,
 # batch size, and image dimensions
-EPOCHS = 100
+EPOCHS = 200
 INIT_LR = 1e-3
 BS = 32
 #IMAGE_DIMS = (96, 96, 3)
@@ -131,7 +131,7 @@ print(classification_report(testY.argmax(axis=1), Y_pred.argmax(axis=1), target_
 
 # save the model to disk
 print("[INFO] serializing network...")
-model.save(args["model"])
+target_namesmodel.save(args["model"])
 
 # save the label binarizer to disk
 print("[INFO] serializing label binarizer...")
