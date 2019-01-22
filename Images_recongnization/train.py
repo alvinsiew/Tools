@@ -126,7 +126,7 @@ print(minLen)
 print('Confusion Matrix')
 matrix = confusion_matrix(testY.argmax(axis=1), Y_pred.argmax(axis=1))
 #target_names = ['background', 'bulbasaur', 'charmander', 'mewtwo', 'pikachu', 'squirtle']
-target_names = ['leonardo_dicaprio', 'brad_pitt', 'dwayne_johnson', 'nicolas_cage']
+target_names = ['brad_pitt', 'chris_hemsworth', 'dwayne_johnson', 'nicole_kidman', 'robert_downey_jr','emma_watson']
 print(classification_report(testY.argmax(axis=1), Y_pred.argmax(axis=1), target_names=target_names))
 
 # save the model to disk
