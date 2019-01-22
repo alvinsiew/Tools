@@ -131,7 +131,7 @@ print(classification_report(testY.argmax(axis=1), Y_pred.argmax(axis=1), target_
 
 # save the model to disk
 print("[INFO] serializing network...")
-target_namesmodel.save(args["model"])
+model.save(args["model"])
 
 # save the label binarizer to disk
 print("[INFO] serializing label binarizer...")
