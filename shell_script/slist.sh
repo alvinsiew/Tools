@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# Version	Author		Remarks
+# 1.1		Alvin		Make script more robust to wrong entries
+#
+###################################################################################################
 
 list_path=/tmp/serverslist.lst
 
