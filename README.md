@@ -1,5 +1,7 @@
 # Tools
 
+Version 1.1 Script more robust to wrong entries
+
 =============================================================================================
 Tools name: slist.sh
 
